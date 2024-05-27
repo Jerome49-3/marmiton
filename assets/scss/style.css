@@ -1,0 +1,155 @@
+body {
+  font-size: 16px;
+}
+
+.wrapper {
+  width: 1024px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+section {
+  background: white;
+  padding: 60px 30px 60px 30px;
+  border-radius: 20px;
+}
+
+p {
+  line-height: 22px;
+  margin-bottom: 20px;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: bold;
+}
+
+h1,
+h3 {
+  color: #393c6c;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+h2 {
+  font-size: 30px;
+  color: #f3735f;
+  margin-top: 70px;
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-size: 18px;
+  line-height: 22px;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 5vh;
+  background: #FFFFFF;
+  border-bottom: 1px solid #f3735f;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.7);
+  margin-bottom: 1px;
+}
+header .wrapper img {
+  height: 24px;
+}
+
+main {
+  width: 80%;
+  margin: 0 auto;
+  background: #EFEFEF;
+  padding-top: 100px;
+}
+main .wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: #FFFFFF;
+  gap: 30px;
+  min-height: 65vh;
+  border-radius: 30px;
+  padding: 30px;
+}
+main .wrapper div.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+}
+main .wrapper div.title p {
+  padding-top: 10px;
+}
+main .wrapper div.title button {
+  background: #8A98B1;
+  border: none;
+  padding: 10px 20px 10px 20px;
+  width: 60%;
+  height: 50px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.7);
+  outline: 2px solid transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .wrapper div.title button h3 {
+  font-size: 1.5rem;
+}
+main .wrapper div.title button:hover {
+  outline: 2px solid #f3735f;
+}
+main .wrapper div.title h1 {
+  font-size: 3.75rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-style: normal;
+}
+main .wrapper figure {
+  display: flex;
+  gap: 30px;
+}
+main .wrapper img {
+  width: 300px;
+  height: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 20px;
+  box-shadow: 2px 2px 4px #242424;
+  outline: 2px solid transparent;
+}
+main .wrapper img:hover {
+  box-shadow: none;
+  outline: 2px solid #f3735f;
+}
+main .wrapper div.ingredients,
+main .wrapper div.preparation,
+main .wrapper div.recette {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+footer p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}/*# sourceMappingURL=style.css.map */

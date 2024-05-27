@@ -1,0 +1,8 @@
+footer {
+  @include flexCenter;
+  margin-top: 50px;
+  p {
+    @include flexCenter;
+    padding: $pad30;
+  }
+}

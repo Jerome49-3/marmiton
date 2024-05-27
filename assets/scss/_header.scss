@@ -1,0 +1,14 @@
+header {
+  @include flexCenter;
+  height: 5vh;
+  background: $backgroundHeader;
+  border-bottom: 1px solid #f3735f;
+  box-shadow: $boxShadow;
+  margin-bottom: 1px;
+
+  .wrapper {
+    img {
+      height: 24px;
+    }
+  }
+}

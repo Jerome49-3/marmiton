@@ -1,0 +1,78 @@
+main {
+  width: 80%;
+  margin: 0 auto;
+  background: $backgrdMain;
+  padding-top: 100px;
+
+  .wrapper {
+    @include flexColCenter;
+    background: $backgroundHeader;
+    gap: $pad30;
+    min-height: 65vh;
+    border-radius: 30px;
+    padding: $pad30;
+
+    div.title {
+      @include flexColCenter;
+      max-width: 80%;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 30px;
+
+      p {
+        padding-top: $pad10;
+      }
+
+      button {
+        background: #8A98B1;
+        border: none;
+        padding: $pad10 $pad20 $pad10 $pad20;
+        width: 60%;
+        height: 50px;
+        border-radius: 10px;
+        box-shadow: $boxShadow;
+        outline: 2px solid transparent;
+        @include flexCenter;
+
+        h3 {
+          font-size: 1.5rem;
+        }
+
+        &:hover {
+          outline: 2px solid $marmiton;
+        }
+      }
+
+      h1 {
+        font-size: 3.75rem;
+        @include robotoBold;
+      }
+    }
+
+    figure {
+      display: flex;
+      gap: 30px;
+    }
+
+    img {
+      width: 300px;
+      height: 300px;
+      object-fit: cover;
+      border-radius: 20px;
+      box-shadow: 2px 2px 4px $policeBlack;
+      outline: 2px solid transparent;
+
+      &:hover {
+        box-shadow: none;
+        outline: 2px solid $marmiton;
+      }
+    }
+
+    div.ingredients,
+    div.preparation,
+    div.recette {
+      @include flexColStart;
+    }
+
+  }
+}
